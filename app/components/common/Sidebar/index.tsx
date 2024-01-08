@@ -22,7 +22,7 @@ export default function SidebarComponent() {
           <SubMenu
             icon={<Icon name="Data List" icon={"mingcute:news-fill"} />}
             label="Data List"
-            className="font-mono text-md sm:text-lg font-bold text-black"
+            className="font-sans text-md sm:text-lg font-bold text-black"
           >
             <Link href="/data-list/corporate-list">
               <MenuItem>Corporate List</MenuItem>
@@ -35,7 +35,7 @@ export default function SidebarComponent() {
           <SubMenu
             icon={<Icon name="Lowongan" icon={"ic:baseline-work"} />}
             label="Lowongan"
-            className="font-mono text-md sm:text-lg font-bold text-black"
+            className="font-sans text-md sm:text-lg font-bold text-black"
           >
             <Link href="/lowongan/it">
               <MenuItem>IT</MenuItem>
